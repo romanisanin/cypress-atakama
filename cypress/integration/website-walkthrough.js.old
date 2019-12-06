@@ -1,0 +1,39 @@
+//disable this test
+// describe('Atakama website walkthrough', function(){
+// 	it('Basic web site functionality', function(){
+// 		cy.on('uncaught:exception', (err, runnable) => {
+//     			expect(err.message).to.include('something about the error')
+// 			// return false to prevent the error from
+// 			// failing this test
+//     			return false
+//   		})
+// 		cy.visit('https://www.atakama.com')
+// 		cy.contains('Features').click()
+// 		cy.wait(500)
+// 		cy.contains('Plans & Pricing').click()
+// 		cy.wait(500)
+// 		cy.contains('About Us').click()
+// 		cy.wait(500)
+// 		cy.contains('Try For Free').click()
+// 		cy.wait(500)
+// 		cy.contains('Download').click()
+// 		cy.wait(500)
+// 		cy.fixture('website-user').then((user) => {
+// 			cy.get('form').within(() => {
+// 				cy.get('#first-name').type(user.firstName).should('have.value', user.firstName)
+// 				cy.get('#Last-name').type(user.lastName).should('have.value', user.lastName)
+// 				cy.get('#email').type(user.email).should('have.value', user.email)
+// 				cy.contains('Submit').click()
+// 			})
+// 		})
+// 		cy.wait(5000)
+// 		cy.get('#win64-dl-url').should(($link) => {
+// 			const hrefURL = $link[0].href
+// 			expect(hrefURL).to.have.string('https://www.atakama.com/release/download/')
+// 		})
+// 		cy.get('#osx-dl-url').should(($link) => {
+// 			const hrefURL = $link[0].href
+// 			expect(hrefURL).to.have.string('https://www.atakama.com/release/download/')
+// 		})
+// 	})
+// })
